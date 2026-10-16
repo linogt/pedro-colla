@@ -6,7 +6,7 @@ img,video{display:block;width:100%;height:auto}b{font-weight:600}small{display:b
 :focus-visible{outline:1px solid var(--pk);outline-offset:3px}
 header{position:sticky;top:0;z-index:20;display:flex;align-items:center;gap:40px;padding:26px 30px;background:var(--bg)}
 .logo{display:flex;align-items:center;gap:8px;white-space:nowrap;line-height:1}
-.logo img{display:block;height:42px;width:auto;max-width:100%}
+.logo img{display:block;width:200px;height:auto;max-width:100%}
 nav{display:flex;gap:40px;margin-right:auto}
 nav a{font-size:13px}
 nav a,.ct a{position:relative;text-transform:uppercase;padding-bottom:3px}
@@ -53,7 +53,7 @@ h1{font-weight:600;font-size:clamp(34px,6vw,72px);line-height:1;letter-spacing:-
 /* COOL */
 .wall{display:grid;grid-template-columns:repeat(12,1fr);gap:50px 24px;align-items:start;padding:30px 52px 120px}
 .cw{display:block;cursor:zoom-in}.cw:hover{transform:scale(1.015)}
-.cs{position:relative}.cs .intro{font-size:16px;font-weight:200}.cs .wall{padding-top:50px}
+.cs{position:relative}.cs .intro{margin:18px 22px 0;font-size:16px;font-weight:200}.cs .wall{padding-top:50px}
 #pad{position:absolute;left:0;top:0;z-index:5;pointer-events:none;touch-action:none}#pad.on{pointer-events:auto;cursor:crosshair}
 .tools{position:fixed;right:30px;bottom:24px;z-index:30;display:flex;gap:10px}
 .tools button{font-size:14px;text-transform:uppercase;background:var(--bg);border:1px solid var(--fg);padding:6px 14px}.tools button.on{background:var(--pk);border-color:var(--pk);color:#fff}
@@ -72,6 +72,7 @@ h1{font-weight:600;font-size:clamp(34px,6vw,72px);line-height:1;letter-spacing:-
 header{flex-wrap:wrap;gap:12px;padding:18px 20px}.mb{display:block}
 nav,.ct{display:none;width:100%}header.open nav{display:flex;flex-direction:column;gap:14px;margin:0}header.open .ct{display:flex}
 .home{--w:70vw}.home .intro{position:static;max-width:none;margin:14px 20px 0;font-size:15px}.vw{height:calc(100vh - 250px);min-height:380px}
+.cs .intro{margin:14px 20px 0}
 .cap2{position:static;transform:none;width:auto;text-align:left;padding:14px 20px 0}
 .about{display:block}.pf{margin:30px 0 0;padding:0}.pf img{max-width:70%}
 .desc,.about>div,.cs .intro{font-size:15px}
