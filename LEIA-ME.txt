@@ -1,0 +1,9 @@
+PEDRO COLLA — site estático (HTML + CSS + JS, sem instalação)
+
+PRÉVIA: dê dois cliques em index.html (abre no navegador).
+PUBLICAR: arraste esta pasta no Netlify Drop (app.netlify.com/drop), Cloudflare Pages etc.
+
+EDITAR: todo o conteúdo está em data.js (projetos, ordem, textos, caminhos das imagens, Cool Things e Sobre).
+IMAGENS: coloque em img/projetos/ e img/cool/ e escreva os caminhos no data.js, ex: cover:'img/projetos/01/capa.jpg'.
+URLS: cada projeto abre em  #/work/<slug>  (ex: index.html#/work/dora-sanches).
+Obs: este é um site independente; não é um template importável do Wix Studio.
